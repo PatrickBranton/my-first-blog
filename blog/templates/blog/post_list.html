@@ -6,8 +6,11 @@
     <div>
       <h1><a href="/">Pats Blog</a></h1>
     </div>
+    <p>for loops no work</p>
     {% for post in posts %}
+      <p> div dont work </p>
       <div>
+        <p>its these that dont work </p>
         <p> published: {{ post.published_date }}</p>
         <h1><a href=""> Pat's Blog</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
